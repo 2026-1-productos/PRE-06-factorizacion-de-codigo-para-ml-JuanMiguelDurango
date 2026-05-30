@@ -9,10 +9,10 @@
 #
 
 # importacion de librerias
-import pandas as pd
-from sklearn.linear_model import ElasticNet
-from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
-from sklearn.model_selection import train_test_split
+import pandas as pd  
+from sklearn.linear_model import ElasticNet 
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score 
+from sklearn.model_selection import train_test_split 
 
 # descarga de datos
 url = "http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv"
